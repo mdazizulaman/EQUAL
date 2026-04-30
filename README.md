@@ -119,25 +119,16 @@ Across the benchmark, no single method dominates all pluralistic modes.
 - **Unaligned models** better match population-level distributions in **Distributional** evaluation than aligned counterparts in many cases
 - Even the best-performing configurations leave a substantial portion of the educational value space uncovered
 
-## Repository Status
+## Release Note
 
-This repository is being prepared for public release. The dataset, code, prompts, and evaluation scripts will be added after anonymization and final cleanup.
+This repository is being prepared for public release. The dataset, code, prompts, and evaluation scripts will be added after acceptance.
 
 Planned contents include:
 - dataset release and documentation
-- filtering pipeline implementation
-- evaluation scripts for Overton / Steerable / Distributional
-- prompts and inference templates
-- benchmark result tables
+- filtering pipeline 
+- evaluation scripts for Overton / Steerable / Distributional are built upon the work of [Modular Pluralism](https://github.com/BunsenFeng/modular_pluralism) (Feng et al., EMNLP 2024). We adapt their evaluation pipeline for the education domain and extend it with our lexicon-based filtering and domain-specific analysis.
 - reproduction instructions
 
-## Code Base
-
-Our evaluation code is built upon the work of [Modular Pluralism](https://github.com/BunsenFeng/modular_pluralism) (Feng et al., EMNLP 2024). We adapt their evaluation pipeline for the education domain and extend it with our lexicon-based filtering and domain-specific analysis.
-
-## Release Note
-
-We will release the full EQUAL dataset, together with the complete lexicon-based filtering pipeline and associated code, after acceptance.
 
 ## License
 

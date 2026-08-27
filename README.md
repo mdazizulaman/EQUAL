@@ -14,7 +14,7 @@ Large Language Models are increasingly used in educational settings such as tuto
 <table>
   <tr>
     <td align="center">
-      <img width="500" alt="Pluralistic alignment example from EQUAL" src="https://github.com/user-attachments/assets/c36c2dc0-157a-4e97-a5c9-dba36841a5e8" />
+      <img width="2449" height="3123" alt="EQUAL_Figure01" src="https://github.com/user-attachments/assets/249be534-0bf7-485c-81ca-ef859d23bdde" />
       <p><strong>A pluralistic alignment example from the EQUAL dataset</strong></p>
     </td>
   </tr>
@@ -103,7 +103,8 @@ Measures whether model outputs match real-world preference distributions.
 
 ## Models and Methods
 
-EQUAL benchmarks **9 LLMs** across both **aligned** and **unaligned** variants, using four inference-time approaches:
+EQUAL benchmarks **9 LLMs** across both **aligned** and **unaligned**, additionally evaluate three fron-
+tier reasoning-capable models using four inference-time approaches:
 
 - **Standard Inference/ Vanilla**
 - **Pluralistic Prompting**
